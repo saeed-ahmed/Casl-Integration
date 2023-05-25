@@ -1,0 +1,34 @@
+<app-header [Role]="role"></app-header>
+<div class="flex justify-center font-bold px-1 py-1 text-slate-900 ">
+  Your are viewing <span class="text-blue-700 ml-2">Payment History</span>
+</div>
+
+<div class="grid grid-cols-3 gap-5">
+
+  <app-card *ngIf="canViewPayment"
+  title="Don’t make assumptions"
+  description="Customers turn to your self-service documentation to solve problems, so your most important goal is to be incredibly clear. Customize the tone that you use in your documentation for the audience reading it."
+  buttonText="View Payment History"
+  buttonStyles="red"
+  >
+  </app-card>
+
+  <app-card *ngIf="canSharePayment"
+  title="Use anchor links in lengthy articles"
+  description="Avoiding assumptions means that you may sometimes have to write lengthier knowledge base articles to ensure you’re explaining every step of the process."
+  buttonText="Share Payment History"
+  buttonStyles="green"
+  >
+  </app-card>
+
+  <app-card *ngIf="canEditPayment"
+  title="Make the content easy to skim"
+  description="Especially if you are writing significantly longer knowledge base articles, it’s essential to ensure that you don’t intimidate readers with a wall of text. When solutions aren’t easy to find, contacting support will be the customer’s next step, and no one wants to have to wait to resolve an issue."
+  buttonText="Edit Payment History"
+  buttonStyles="orange"
+  >
+  </app-card>
+</div>
+<div>
+
+</div>

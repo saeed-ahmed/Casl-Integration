@@ -1,0 +1,9 @@
+<div class="flex justify-center font-bold px-3 py-2 text-slate-900 ">
+  Your are currently logged in as <span class="text-red-700 ml-2">{{role.currentRole.name.toUpperCase()}}</span>
+</div>
+<nav class="flex justify-center space-x-4">
+  <a routerLink="/article" routerLinkActive="bg-purple-300 text-purple-900" ariaCurrentWhenActive="page"class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900 active:bg-slate-100 active:text-slate-900">Article</a>
+  <a routerLink="/payment" routerLinkActive="bg-purple-300 text-purple-900" ariaCurrentWhenActive="page" class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Payment</a>
+  <a routerLink="/payment-history" routerLinkActive="bg-purple-300 text-purple-900" ariaCurrentWhenActive="page" class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Payment History</a>
+</nav>
+<div><hr class="p-1 m-1"></div>

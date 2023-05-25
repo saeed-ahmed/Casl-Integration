@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .green{
+      @apply p-2 px-5 text-white font-semibold rounded-full shadow-gray-200 bg-green-500 hover:bg-green-700;
+  }
+  .sky{
+    @apply p-2 px-5 text-white font-semibold rounded-full shadow-gray-200 bg-sky-500 hover:bg-sky-700;
+  }
+  .purple{
+    @apply p-2 px-5 text-white font-semibold rounded-full shadow-gray-200 bg-purple-500 hover:bg-purple-700;
+  }
+  .orange{
+    @apply p-2 px-5 text-white font-semibold rounded-full shadow-gray-200 bg-orange-500 hover:bg-orange-700;
+  }
+  .red{
+    @apply p-2 px-5 text-white font-semibold rounded-full shadow-gray-200 bg-red-500 hover:bg-red-700;
+  }
+}
