@@ -1,6 +1,11 @@
-# CaslIntegration
+# CASL - Managing permissions dynamically (JSON) using CASL library - Angular Demo 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+- Managning permissions dynamically through CASL library.
+- The sample uses Angular.
+- For styling Tailwind is used.
+- The app have three different routes, which shows permission driven CARDS.
+- For the demo purpose four Roles(Admin, Manager, Supervisor & Operator) are being used.
+- The roles can be change in the specific component, Article, Payment & Payment History (.ts file)
 
 ## Development server
 
